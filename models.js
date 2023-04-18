@@ -1,4 +1,4 @@
-
+<script>
 var carModels = {
   "audi": ["Выберете модель", "A3", "A4", "A6"],
   "bmw": ["", "3 Series", "5 Series", "7 Series"],
@@ -18,3 +18,4 @@ function updateCarModelSelect(availableModels) {
         carModelDropdown.append('<option value="'+model+'">'+model+'</option>');
     });
 }
+</script>
