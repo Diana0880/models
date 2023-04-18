@@ -1,4 +1,3 @@
-<script>
 var carModels = {
   "audi": ["Выберите модель", 
   "A1 Hb 5-ти дв. с 10г.", 
@@ -926,4 +925,3 @@ var carModels = {
           carModelDropdown.append('<option value="'+model+'">'+model+'</option>');
       });
   }
-</script>
